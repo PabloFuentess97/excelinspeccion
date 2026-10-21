@@ -29,3 +29,7 @@ La página incluye SheetJS Community Edition 0.20.3 (Apache-2.0) para leer Excel
 ## Exportación
 
 El botón Exportar vista a Excel descarga un archivo .xlsx con todas las columnas y las filas de la vista actual, respetando la búsqueda y el filtro de estado. Las cantidades se exportan como números y los códigos y lotes como texto para conservar los ceros iniciales. Incluye filtros en las cabeceras.
+
+## Filtro de incidencias
+
+Solo se comparan filas con relleno rojo y cuya columna COMENTARIO o COMENTARIOS contenga inspección, inspeccion o isnpeccion, sin distinguir mayúsculas. Se conserva el comentario original.
